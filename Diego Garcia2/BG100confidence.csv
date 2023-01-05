@@ -1,0 +1,4 @@
+News,# Articles,Mean Tone,Standard Deviation in Tone
+Chinese Sources,329, 2.4527258295056305, 4.089234215730016
+Western Sources,71, -0.6292216313976637, 3.381183546489088 
+Local Sources,334, -0.746532618597953, 3.537147468104296 

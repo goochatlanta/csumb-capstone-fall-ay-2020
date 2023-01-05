@@ -1,0 +1,11 @@
+Country Name,FIPS-10 Code,Event Count Actor=China and Action=Target,Event Count Actor1=China Actor2=Target OR Actor1=Target Actor2=China
+Myanmar,MMR,12550,36700
+Thailand,THA,39453,46010
+Cambodia,KHM,23126,32427
+Viet Nam,VNM,0,102319
+Philippines,PHL,139800,182412
+Malaysia,MYS,69748,86977
+Brunei Darussalam,BRN,87475,70183
+Indonesia,IDN,48178,54407
+Papua New Guinea,PNG,3891,4904
+Timor-Leste,TLS,489,0

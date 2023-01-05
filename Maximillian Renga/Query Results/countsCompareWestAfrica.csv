@@ -1,0 +1,22 @@
+Country Name,FIPS-10 Code,Event Count Actor=China and Action=Target,Event Count Actor1=China Actor2=Target OR Actor1=Target Actor2=China
+Angola,AGO,4885,6518
+Benin,BEN,647,595
+Burkina Faso,BFA,2295,2151
+Cameroon,CMR,3789,4027
+Central African Republic,CAF,461,390
+"Congo, the Democratic Republic of the",COD,808,1710
+Congo,COG,2673,2298
+Equatorial Guinea,GNQ,665,892
+Gabon,GAB,1759,2176
+Gambia,GMB,2747,3479
+Ghana,GHA,11663,12097
+Guinea-Bissau,GNB,341,478
+Liberia,LBR,2817,3028
+Mali,MLI,4921,4528
+Mauritania,MRT,1342,1320
+Namibia,NAM,4650,5420
+Niger,NER,1037,813
+Nigeria,NGA,29100,28274
+Senegal,SEN,3646,3788
+Sierra Leone,SLE,3602,4430
+Togo,TGO,1446,1534

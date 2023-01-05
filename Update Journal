@@ -1,0 +1,11 @@
+10/1/2019   12:10am
+
+I looked over the tables by doing the mysql script I wrote. 
+Select * from events limit 10. I looked over the name of the columns. 
+I will continue to look more before Wednesday. 
+
+
+I installed the mysql workbench and tried to run the code from events in the gitlab. 
+but I have an error. I will work with my teammates to figure out the problem. 
+I also tried to download the mysql-connector-python but it won't let me install. 
+Again, I will ask my teammate if they have successfully installed it. 

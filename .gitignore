@@ -1,0 +1,10 @@
+# Ignore Mac files
+.DS_store
+
+# Ignore Python files
+__pycache__
+capstoneenv
+
+.ipynb_checkpoints
+.Rproj.user
+csumb_fall_2020.token

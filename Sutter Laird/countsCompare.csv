@@ -1,0 +1,25 @@
+Country Name,FIPS-10 Code,Event Count Actor=China and Action=Target,Event Count Actor1=China Actor2=Target OR Actor1=Target Actor2=China
+Botswana,BWA,2710,3608
+Burundi,BDI,1383,1697
+Chad,TCD,1143,1274
+Comoros,COM,241,390
+Djibouti,DJI,6597,8344
+Eritrea,ERI,869,825
+Eswatini,SWZ,294,223
+Ethiopia,ETH,9331,11122
+Kenya,KEN,19945,24283
+Lesotho,LSO,957,1116
+Madagascar,MDG,2162,2001
+Malawi,MWI,1981,2356
+Mauritius,MUS,2797,3952
+Mozambique,MOZ,3399,3550
+Rwanda,RWA,4965,5763
+Seychelles,SYC,1066,1250
+Somalia,SOM,4568,4249
+South Africa,ZAF,31290,11640
+South Sudan,SSD,2788,5321
+Sudan,SDN,9149,9096
+United Republic of Tanzania,TZA,6854,7424
+Uganda,UGA,6297,7918
+Zimbabwe,ZWE,15907,17817
+Zambia,ZMB,7173,8585

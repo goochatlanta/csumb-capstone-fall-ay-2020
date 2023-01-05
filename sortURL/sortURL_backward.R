@@ -1,0 +1,373 @@
+library(readr)
+
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Zimbabwe, Republic of/sourceCounts.csv") 
+sources_local <- sources[ which(sources$`Source Name`=="bulawayo24.com"|
+                                sources$`Source Name`=="herald.co.zw"|
+                                sources$`Source Name`=="thezimbabwemail.com"|
+                                sources$`Source Name`=="thezimbabwedaily.com"|
+                                sources$`Source Name`=="chronicle.co.zw"|
+                                sources$`Source Name`=="newsday.co.zw"|
+                                sources$`Source Name`=="theindependent.co.zw"|
+                                sources$`Source Name`=="dailynews.co.zw"|
+                                sources$`Source Name`=="sundaymail.co.zw"|
+                                sources$`Source Name`=="newzimbabwe.com"|
+                                sources$`Source Name`=="zimeye.net"|
+                                sources$`Source Name`=="zbc.co.zw"|
+                                sources$`Source Name`=="zimbabwestar.com"|
+                                sources$`Source Name`=="thezimbabwean.co"|
+                                sources$`Source Name`=="financialgazette.co.zw"|
+                                sources$`Source Name`=="zimdaily.com"|
+                                sources$`Source Name`=="thezimbabwenewslive.com"|
+                                sources$`Source Name`=="thestandard.co.zw"|
+                                sources$`Source Name`=="times.co.zm"|
+                                sources$`Source Name`=="insiderzim.com"|
+                                sources$`Source Name`=="myzimbabwe.co.zw"|
+                                sources$`Source Name`=="sundaynews.co.zw"|
+                                sources$`Source Name`=="zimbabwe-today.com"), ]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Zimbabwe, Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Zambia, Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="lusakatimes.com"|
+                                  sources$`Source Name`=="znbc.co.zm"|
+                                  sources$`Source Name`=="daily-mail.co.zm"|
+                                  sources$`Source Name`=="times.co.zm"|
+                                  sources$`Source Name`=="zambiareports.com"|
+                                  sources$`Source Name`=="postzambia.com"|
+                                  sources$`Source Name`=="zambiadailynation.com"|
+                                  sources$`Source Name`=="tiozambia.com"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Zambia, Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Yemen/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="yemenakhbar.com"|
+                                  sources$`Source Name`=="barakish.net"|
+                                  sources$`Source Name`=="alsahwa-yemen.net"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Yemen/local.csv", append = FALSE)
+
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Vietnam, Socialist Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="english.vietnamnet.vn"|
+                                  sources$`Source Name`=="en.vietnamplus.vn"|
+                                  sources$`Source Name`=="tuoitrenews.vn"|
+                                  sources$`Source Name`=="fr.vietnamplus.vn"|
+                                  sources$`Source Name`=="vietnam.vnanet.vn"|
+                                  sources$`Source Name`=="lecourrier.vn"|
+                                  sources$`Source Name`=="es.vietnamplus.vn"|
+                                  sources$`Source Name`=="vnexpress.net"|
+                                  sources$`Source Name`=="english.vov.vn"|
+                                  sources$`Source Name`=="vietnamnews.vn"|
+                                  sources$`Source Name`=="hanoitimes.com.vn"|
+                                  sources$`Source Name`=="nhandan.org.vn"|
+                                  sources$`Source Name`=="vir.com.vn"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Vietnam, Socialist Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Uzbekistan, Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="uza.uz"|
+                                  sources$`Source Name`=="uzdaily.com"|
+                                  sources$`Source Name`=="jahonnews.uz"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Uzbekistan, Republic of/local.csv", append = FALSE)
+
+# https://www.irex.org/sites/default/files/pdf/media-sustainability-index-europe-eurasia-2018-uzbekistan.pdf
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/United Arab Emirates/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="gulfnews.com"|
+                                  sources$`Source Name`=="zawya.com"|
+                                  sources$`Source Name`=="wam.ae"|
+                                  sources$`Source Name`=="thenational.ae"|
+                                  sources$`Source Name`=="khaleejtimes.com"|
+                                  sources$`Source Name`=="arabianbusiness.com"|
+                                  sources$`Source Name`=="albayan.ae"|
+                                  sources$`Source Name`=="emirates247.com"|
+                                  sources$`Source Name`=="dubaicityguide.com"|
+                                  sources$`Source Name`=="alittihad.ae"|
+                                  sources$`Source Name`=="abudhabicityguide.com"|
+                                  sources$`Source Name`=="uaeinteract.com"|
+                                  sources$`Source Name`=="cpifinancial.net"|
+                                  sources$`Source Name`=="alkhaleej.ae"|
+                                  sources$`Source Name`=="gulftoday.ae"|
+                                  sources$`Source Name`=="gulfbusiness.com"|
+                                  sources$`Source Name`=="emaratalyoum.com"|
+                                  sources$`Source Name`=="middleeastevents.com"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/United Arab Emirates/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Uganda, Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="allafrica.com"|
+                                  sources$`Source Name`=="newvision.co.ug"|
+                                  sources$`Source Name`=="monitor.co.ug"|
+                                  sources$`Source Name`=="chimpreports.com"|
+                                  sources$`Source Name`=="observer.ug"|
+                                  sources$`Source Name`=="independent.co.ug"|
+                                  sources$`Source Name`=="redpepper.co.ug"|
+                                  sources$`Source Name`=="mediacentre.go.ug"|
+                                  sources$`Source Name`=="kampalapost.com"|
+                                  sources$`Source Name`=="theinsider.ug"|
+                                  sources$`Source Name`=="softpower.ug"| #Out of Uganda but UK sponsored
+                                  sources$`Source Name`=="oilinuganda.org"| #This is out of Kampala and sponsored by Ford Foundation
+                                  sources$`Source Name`=="pmldaily.com"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Uganda, Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Turkmenistan/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="turkmenistan.gov.tm"|
+                                  sources$`Source Name`=="tdh.gov.tm"| #52
+                                  sources$`Source Name`=="chrono-tm.org"),] # 54, Editors mother was attacked.
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Turkmenistan/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Turkey, Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="dailysabah.com"|
+                                  sources$`Source Name`=="haberler.com"|
+                                  sources$`Source Name`=="hurriyetdailynews.com"|
+                                  sources$`Source Name`=="todayszaman.com"|
+                                  sources$`Source Name`=="yenisafak.com"|
+                                  sources$`Source Name`=="memleket.com.tr"|
+                                  sources$`Source Name`=="turkishweekly.net"| #Closed but Turkish,  International Strategic Research Organization (USAK
+                                  sources$`Source Name`=="milliyet.com.tr"|
+                                  sources$`Source Name`=="cihan.com.tr"|
+                                  sources$`Source Name`=="yeniakit.com.tr"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Turkey, Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Tunisia, Tunisian Republic/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="tap.info.tn"|
+                                  sources$`Source Name`=="businessnews.com.tn"|
+                                  sources$`Source Name`=="tuniscope.com"|
+                                  sources$`Source Name`=="lapresse.tn"|
+                                  sources$`Source Name`=="leconomistemaghrebin.com"|
+                                  sources$`Source Name`=="webdo.tn"|
+                                  sources$`Source Name`=="letemps.com.tn"|
+                                  sources$`Source Name`=="leaders.com.tn"|
+                                  sources$`Source Name`=="shemsfm.net"|
+                                  sources$`Source Name`=="realites.com.tn"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Tunisia, Tunisian Republic/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Togo, Togolese Republic/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="icilome.com"|
+                                  sources$`Source Name`=="republicoftogo.com"|
+                                  sources$`Source Name`=="alome.com"|
+                                  sources$`Source Name`=="allafrica.com"|
+                                  sources$`Source Name`=="togofirst.com"|
+                                  sources$`Source Name`=="savoirnews.net"|
+                                  sources$`Source Name`=="togosite.com"|
+                                  sources$`Source Name`=="togodiplomatie.info"|
+                                  sources$`Source Name`=="telegramme228.com"|
+                                  sources$`Source Name`=="editogo.tg"|
+                                  sources$`Source Name`=="manationtogo.com"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Togo, Togolese Republic/local.csv", append = FALSE)
+
+# Timor-Leste has no local news
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Thailand, Kingdom of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="bangkokpost.com"|
+                                  sources$`Source Name`=="nationmultimedia.com"|
+                                  sources$`Source Name`=="thaivisa.com"|
+                                  sources$`Source Name`=="chiangraitimes.com"|
+                                  sources$`Source Name`=="ttrweekly.com"|
+                                  sources$`Source Name`=="thephuketnews.com"|
+                                  sources$`Source Name`=="thailandnews.net"|
+                                  sources$`Source Name`=="pattayamail.com"|
+                                  sources$`Source Name`=="khaosodenglish.com"|
+                                  sources$`Source Name`=="phuketgazette.net"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Thailand, Kingdom of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Tanzania, United Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="allafrica.com"|
+                                  sources$`Source Name`=="tanzaniatoday.co.tz"|
+                                  sources$`Source Name`=="dailynews.co.tz"|
+                                  sources$`Source Name`=="24tanzania.com"|
+                                  sources$`Source Name`=="tanzanianewsreports.com"|
+                                  sources$`Source Name`=="thecitizen.co.tz"| #  Nation Media Group
+                                  sources$`Source Name`=="exchange.co.tz" ),] # Africa's investment gateway: Tanzania and Kenya
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Tanzania, United Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Tajikistan, Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="news.tj"|
+                                  sources$`Source Name`=="khovar.tj"|
+                                  sources$`Source Name`=="avesta.tj"|
+                                  sources$`Source Name`=="asiaplus.tj"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Tajikistan, Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Syrian Arab Republic/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="sana.sy"|
+                                  sources$`Source Name`=="jpnews-sy.com"| # 111
+                                  sources$`Source Name`=="syrianow.sy"),] # 131
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Syrian Arab Republic/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Swaziland, Kingdom of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="observer.org.sz"|
+                                  sources$`Source Name`=="times.co.sz"|
+                                  sources$`Source Name`=="allafrica.com"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Swaziland, Kingdom of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Sudan, Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="allafrica.com"|
+                                  sources$`Source Name`=="sudanvisiondaily.com"|
+                                  sources$`Source Name`=="hurriyatsudan.com"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Sudan, Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Sri Lanka, Democratic Socialist Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="dailymirror.lk"|
+                                  sources$`Source Name`=="ft.lk"|
+                                  sources$`Source Name`=="lankaweb.com"|
+                                  sources$`Source Name`=="sundaytimes.lk"|
+                                  sources$`Source Name`=="dailynews.lk"|
+                                  sources$`Source Name`=="thesundayleader.lk"|
+                                  sources$`Source Name`=="island.lk"|
+                                  sources$`Source Name`=="slguardian.org"|
+                                  sources$`Source Name`=="adaderana.lk"|
+                                  sources$`Source Name`=="news.lk"|
+                                  sources$`Source Name`=="lankabusinessonline.com"|
+                                  sources$`Source Name`=="srilankamirror.com"|
+                                  sources$`Source Name`=="lankanewspapers.com"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Sri Lanka, Democratic Socialist Republic of/local.csv", append = FALSE)
+
+# No South Sudanese papers
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/South Africa, Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="news24.com"|
+                                  sources$`Source Name`=="sharenet.co.za"|
+                                  sources$`Source Name`=="engineeringnews.co.za"|
+                                  sources$`Source Name`=="fin24.com"|
+                                  sources$`Source Name`=="polity.org.za"|
+                                  sources$`Source Name`=="citizen.co.za"|
+                                  sources$`Source Name`=="timeslive.co.za"|
+                                  sources$`Source Name`=="dailymaverick.co.za"|
+                                  sources$`Source Name`=="702.co.za"|
+                                  sources$`Source Name`=="ewn.co.za"|
+                                  sources$`Source Name`=="itweb.co.za"|
+                                  sources$`Source Name`=="mg.co.za"|
+                                  sources$`Source Name`=="bdlive.co.za"|
+                                  sources$`Source Name`=="moneyweb.co.za"|
+                                  sources$`Source Name`=="iafrica.com"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/South Africa, Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Somalia, Somali Republic/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="hillaac.net"|
+                                  sources$`Source Name`=="radiomuqdisho.net"|
+                                  sources$`Source Name`=="somalilandsun.com"|
+                                  sources$`Source Name`=="qaranimo.com"|
+                                  sources$`Source Name`=="radioshabelle.com"|
+                                  sources$`Source Name`=="shabellenews.com"|
+                                  sources$`Source Name`=="midnimo.com"|
+                                  sources$`Source Name`=="garoweonline.com"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Somalia, Somali Republic/local.csv", append = FALSE)
+
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Singapore, Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="asiaone.com"|
+                                  sources$`Source Name`=="straitstimes.com"|
+                                  sources$`Source Name`=="channelnewsasia.com"|
+                                  sources$`Source Name`=="businesstimes.com.sg"|
+                                  sources$`Source Name`=="singaporestar.com"|
+                                  sources$`Source Name`=="todayonline.com"|
+                                  sources$`Source Name`=="tnp.sg"|
+                                  sources$`Source Name`=="sglinks.com"|
+                                  sources$`Source Name`=="theindependent.sg"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Singapore, Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Sierra Leone, Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="thesierraleonetelegraph.com"|
+                                  sources$`Source Name`=="awoko.org"|
+                                  sources$`Source Name`=="slconcordtimes.com"|
+                                  sources$`Source Name`=="allafrica.com"|
+                                  sources$`Source Name`=="sierraexpressmedia.com"|
+                                  sources$`Source Name`=="expotimesonline.net"|
+                                  sources$`Source Name`=="globaltimes-sl.com"|
+                                  sources$`Source Name`=="news.sl"|
+                                  sources$`Source Name`=="politicosl.com"|
+                                  sources$`Source Name`=="statehouse.gov.sl"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Sierra Leone, Republic of/local.csv", append = FALSE)
+
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Seychelles, Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="seychellesnewsagency.com"|
+                                  sources$`Source Name`=="allafrica.com"|
+                                  sources$`Source Name`=="nation.sc"|
+                                  sources$`Source Name`=="statehouse.gov.sc"|
+                                  sources$`Source Name`=="virtualseychelles.sc"|
+                                  sources$`Source Name`=="partilepep.com"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Seychelles, Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Senegal, Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="adakar.com"|
+                                  sources$`Source Name`=="seneweb.com"|
+                                  sources$`Source Name`=="allafrica.com"|
+                                  sources$`Source Name`=="sen360.com"|
+                                  sources$`Source Name`=="aps.sn"|
+                                  sources$`Source Name`=="senenews.com"|
+                                  sources$`Source Name`=="lequotidien.sn"|
+                                  sources$`Source Name`=="senego.com"|
+                                  sources$`Source Name`=="sudonline.sn"|
+                                  sources$`Source Name`=="dakaractu.com"),]
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Senegal, Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Saudia Arabi, Kingdom of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="arabnews.com"|
+                                  sources$`Source Name`=="spa.gov.sa"|
+                                  sources$`Source Name`=="haraj.com.sa"|
+                                  sources$`Source Name`=="alriyadh.com"|
+                                  sources$`Source Name`=="aleqt.com"|
+                                  sources$`Source Name`=="okaz.com.sa"|
+                                  sources$`Source Name`=="saudigazette.com.sa"|
+                                  sources$`Source Name`=="elghad.co"),] # This is a company called alghad, perhaps
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Saudi Arabia, Kingdom of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Rwanda, Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="newtimes.co.rw"|
+                                  sources$`Source Name`=="rnanews.com"|
+                                  sources$`Source Name`=="ktpress.rw"|
+                                  sources$`Source Name`=="taarifa.rw"|
+                                  sources$`Source Name`=="rwandaises.com"|
+                                  sources$`Source Name`=="igihe.com"),] 
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Rwanda, Republic of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Russian Federation/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="sputniknews.com"|
+                                  sources$`Source Name`=="rt.com"|
+                                  sources$`Source Name`=="themoscowtimes.com"|
+                                  sources$`Source Name`=="ria.ru"|
+                                  sources$`Source Name`=="tass.ru"|
+                                  sources$`Source Name`=="rbth.com"|
+                                  sources$`Source Name`=="regnum.ru"),] 
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Russian Federation/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Qatar, State of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="gulf-times.com"|
+                                  sources$`Source Name`=="thepeninsulaqatar.com"|
+                                  sources$`Source Name`=="qatar-tribune.com"|
+                                  sources$`Source Name`=="raya.com"|
+                                  sources$`Source Name`=="al-watan.com"|
+                                  sources$`Source Name`=="dohanews.co"|
+                                  sources$`Source Name`=="al-sharq.com"|
+                                  sources$`Source Name`=="alarab.qa"|
+                                  sources$`Source Name`=="marhaba.qa"),] 
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Qatar, State of/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Philippines, Republic of the/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="philstar.com"|
+                                  sources$`Source Name`=="inquirer.net"|
+                                  sources$`Source Name`=="mb.com.ph"|
+                                  sources$`Source Name`=="abs-cbn.com"|
+                                  sources$`Source Name`=="manilatimes.net"|
+                                  sources$`Source Name`=="rappler.com"|
+                                  sources$`Source Name`=="sunstar.com.ph"|
+                                  sources$`Source Name`=="tribune.net.ph"|
+                                  sources$`Source Name`=="interaksyon.com"|
+                                  sources$`Source Name`=="thestandard.com.ph"|
+                                  sources$`Source Name`=="gmanetwork.com"|
+                                  sources$`Source Name`=="radyonatin.com"|
+                                  sources$`Source Name`=="malaya.com.ph"|
+                                  sources$`Source Name`=="abs-cbnnews.com"|
+                                  sources$`Source Name`=="manilastandard.net"),] 
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Philippines, Republic of the/local.csv", append = FALSE)
+
+sources <- read_csv("~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Pakistan, Islamic Republic of/sourceCounts.csv")
+sources_local <- sources[ which(sources$`Source Name`=="thenews.com.pk"|
+                                  sources$`Source Name`=="dawn.com"|
+                                  sources$`Source Name`=="nation.com.pk"|
+                                  sources$`Source Name`=="tribune.com.pk"|
+                                  sources$`Source Name`=="dailytimes.com.pk"|
+                                  sources$`Source Name`=="app.com.pk"|
+                                  sources$`Source Name`=="dunyanews.tv"|
+                                  sources$`Source Name`=="thefrontierpost.com"|
+                                  sources$`Source Name`=="pakistantoday.com.pk"|
+                                  sources$`Source Name`=="dailypakistan.com.pk"|
+                                  sources$`Source Name`=="dnd.com.pk"|
+                                  sources$`Source Name`=="customstoday.com.pk"|
+                                  sources$`Source Name`=="radio.gov.pk"),] 
+write_csv(sources_local, "~/csumb-capstone-fall-ay-2020/Sutter Laird/CountrySourceCounts/Pakistan, Islamic Republic of/local.csv", append = FALSE)
